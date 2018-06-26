@@ -1,0 +1,89 @@
+.navbar, footer{
+	margin-bottom: 0px !important;
+	border-radius: 0px !important;
+	background-color: #7B5CA9;
+	color: #fff;
+	border:0px !important;
+	padding:1% 0;
+	font-size: 1.1em;
+}
+.navbar-brand{
+	float: left;
+    min-height: 55px;
+    padding: 0 15px 5px;	
+}
+.navbar-expand-md .navbar-nav .active a,
+.navbar-expand-md .navbar-nav a:hover,
+.navbar-expand-md .navbar-nav a:focus{
+	color:#fff;
+	background-color: #7B5CA9;
+}
+.navbar-expand-md .navbar-nav li a{
+	color:#d5d5d5;
+}
+.fa.fa-navicon {
+	color: #f3f3f3;
+    font-size: 27px;
+}
+.navbar-nav{
+	padding-left:710px;
+}
+.carousel-caption{
+	top:60%;
+	transform: translateY(-50%);
+	text-transform: uppercase;
+}
+.btn{
+	font-size: 18px;
+	color:#fff;
+	padding: 12px 22px;
+	border:2px solid #fff;
+	background-color: #7B5CA9;
+}
+.btn:hover{
+	background-color: #fff;
+	color:black;
+	border:2px solid #7B5CA9;
+}
+.carousel-item img{
+	width:100%;
+	height:100%;
+}
+#icon{
+	max-width:200px;
+	margin:1% auto;
+}
+.container{
+	margin:4% auto;
+}
+.img-responsive{
+	width:100%;
+	height: 100%;
+}
+footer .fa{
+	padding: 20px;
+	font-size: 30px;
+	color:white;
+}
+footer .fa:hover{
+	text-decoration: none;
+	color:#d5d5d5;
+}
+@media only screen and (max-width: 600px) {
+    .navbar-nav{
+       padding-left:20px;
+	}
+	.carousel-caption{
+		display:none;
+	}
+	.carousel-item img{
+		width:100%;
+		height:350px;
+	}
+	#icon{
+		max-width:150px;
+	}
+	h2{
+		font-size: 1.8em;
+	}
+}
